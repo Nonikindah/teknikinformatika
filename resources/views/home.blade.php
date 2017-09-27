@@ -67,58 +67,9 @@
     </a>
 </section><!--/#main-slider-->
 
-<section id="services" class="emerald">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-twitter icon-md"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">Twitter</h3>
-                        <a href="https://twitter.com/HIMTI_Unesa">@HIMTI_Unesa</a>
-                    </div>
-                </div>
-            </div><!--/.col-md-4-->
-            <div class="col-md-4 col-sm-6">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-facebook icon-md"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">Facebook</h3>
-                        <a href="https://www.facebook.com/HIMTI-Unesa-1745045152388711/">HIMTI Unesa</a>
-                    </div>
-                </div>
-            </div><!--/.col-md-4-->
-            <div class="col-md-4 col-sm-6">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-google-plus icon-md"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">Line</h3>
-                        <a href="http://line.me/ti/p/~@ucw6451e">JTInformatika Unesa</a>
-                    </div>
-                </div>
-            </div><!--/.col-md-4-->
-        </div>
-    </div>
-</section><!--/#services-->
-
 <section id="recent-works">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <h3>Acara Yang Sudah Terlaksana</h3>
-                <p>Acara HIMTI Unesa</p>
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
-                    <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                </div>
-                <p class="gap"></p>
-            </div>
             <div class="col-md-9">
                 <div id="scroller" class="carousel slide">
                     <div class="carousel-inner">
@@ -214,61 +165,4 @@
         </div><!--/.row-->
     </div>
 </section><!--/#recent-works-->
-
-<section id="bottom" class="wet-asphalt">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <h4>Profil</h4>
-                <p>HIMTI Unesa adalah kepanjangan dari Himpunan Mahasiswa Jurusan Teknik Informatika Unesa.
-                    Semua kegiatan yang bersangkutan dengan Mahasiswa akan melewati Himpunan.</p>
-                <p>Himpunan Mahasiswa Jurusan Teknik Informatika Unesa didiriakan bersamaan dengan Jurusan Teknik Informatika pada tahun 2014</p>
-            </div><!--/.col-md-3-->
-            <div class="col-md-3 col-sm-6">
-                <h4>Berita Terkini</h4>
-                <div>
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/blog/thumb1.jpg" alt="">
-                        </div>
-                        <div class="media-body">
-                            <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                            <small class="muted">Posted 17 Aug 2013</small>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/blog/thumb2.jpg" alt="">
-                        </div>
-                        <div class="media-body">
-                            <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                            <small class="muted">Posted 13 Sep 2013</small>
-                        </div>
-                    </div>
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/blog/thumb3.jpg" alt="">
-                        </div>
-                        <div class="media-body">
-                            <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                            <small class="muted">Posted 11 Jul 2013</small>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.col-md-3-->
-
-            <div class="col-md-3 col-sm-6">
-                <h4>Address</h4>
-                <address>
-                    <strong>Kampus Unesa Ketintang</strong><br>
-                    Jurusan Teknik Informatika Gedung B<br>
-                    Fakultas Teknik<br>
-                    Universitas Negeri Surabaya<br>
-                    Surabaya 60000 <br>
-                    <abbr title="Telepon">T:</abbr> +6231-8297197
-                </address>
-            </div>
-        </div>
-        </div>
-</section>
 @endsection

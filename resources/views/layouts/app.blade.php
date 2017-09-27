@@ -15,7 +15,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="">
 </head><!--/head-->
 <body>
 <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -27,12 +27,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="" alt="logo"></a>
+            <a class="navbar-brand" href=""><img src="" alt="logo"></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="about-us.html">Profil</a></li>
-                <li><a href="organigram.html">Struktur Organisasi</a></li>
+                <li><a href="{{ route('struktur') }}">Struktur Organisasi</a></li>
                 <li><a href="services.html">Fasilitas</a></li>
                 <li><a href="services.html">Acara</a></li>
                 <li><a href="portfolio.html">Galeri</a></li>
@@ -49,8 +49,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="career.html">Beasiswa</a></li>
-                        <li><a href="blog-item.html">Loker</a></li>
+                        <li><a href="{{ route('beasiswa') }}">Beasiswa</a></li>
+                        <li><a href="{{ route('loker') }}">Loker</a></li>
                     </ul>
                 </li>
             </ul>
@@ -64,16 +64,16 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2016 Departemen Penristek HIMTI.
+                &copy; 2017 Teknik Informatika
             </div>
-            <div class="col-sm-6">
-                <ul class="pull-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about-us.html">Profil</a></li>
-                    <li><a href="faq.html">Faq</a></li>
-                    <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
-                </ul>
-            </div>
+            {{--<div class="col-sm-6">--}}
+                {{--<ul class="pull-right">--}}
+                    {{--<li><a href="#">Home</a></li>--}}
+                    {{--<li><a href="about-us.html">Profil</a></li>--}}
+                    {{--<li><a href="faq.html">Faq</a></li>--}}
+                    {{--<li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->--}}
+                {{--</ul>--}}
+            {{--</div>--}}
         </div>
     </div>
 </footer><!--/#footer-->

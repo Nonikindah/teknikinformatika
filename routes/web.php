@@ -16,3 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/struktur', function(){
+    return view('struktur');})->name('struktur');
+
+Route::get('/beasiswa', function(){
+    return view('beasiswa');})->name('beasiswa');
+
+Route::get('/loker', function(){
+    return view('loker');})->name('loker');
