@@ -11,47 +11,36 @@
             <li data-target="#main-slider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
+            <div class="item active" style="background-image: url(images/slider/lombaic.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content centered">
-                                <h2 class="animation animated-item-1" style="text-align: center">Jurusan Teknik Informatika Universitas Negeri Surabaya</h2>
+                                <h2 class="animation animated-item-1" style="text-align: center">Kegiatan Lomba Jurusan</h2>
                                 <p class="animation animated-item-2"> </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><!--/.item-->
-            <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+            <div class="item" style="background-image: url(images/slider/dialog.jpg)">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content center centered">
-                                <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
-                                <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                <h2>Kegiatan Dialog Jurusan</h2>
                                 <br>
-                                <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><!--/.item-->
-            <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+            <div class="item" style="background-image: url(images/slider/wisuda.jpg)">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="carousel-content centered">
-                                <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="centered">
-                                <div class="embed-container">
-                                    <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                </div>
+                        <div class="col-sm-12">
+                            <div class="carousel-content center centered">
+                                <h2>Mahasiswa Setelah Sidang</h2>
                             </div>
                         </div>
                     </div>
@@ -66,7 +55,21 @@
         <i class="icon-angle-right"></i>
     </a>
 </section><!--/#main-slider-->
-
+<section id="services" class="emerald">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-6">
+                <div class="media">
+                    <div class="pull-left">
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading" style="text-align: center">Seputar Informasi</h3>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+        </div>
+    </div>
+</section><!--/#services-->
 <section id="recent-works">
     <div class="container">
         <div class="row">
@@ -78,85 +81,80 @@
                                 <div class="col-xs-4">
                                     <div class="portfolio-item">
                                         <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/DSC_0062.jpg" alt="">
+                                            <img class="img-responsive" src="images/portfolio/full/soskom.png" alt="">
                                             <h5>
-                                                Buka Bareng Anak TI 2016
+                                                Sosialisasi Komatik
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Buka Bareng Anak TI 2016" href="images/portfolio/full/DSC_0062.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Sosialisasi Komatik" href="images/portfolio/full/soskom.png" rel="prettyPhoto"><li class="icon-eye-open"></li></a>
                                             </div>
+                                            <p>
+                                                Salam komatik!
+                                                Hai para kreator jurusan Teknik Informatika🙋🙋
+                                                Punya ide baru tapi bingung ngembanginnya? Atau pingin ngembangin hardskill tapi kurang inovasi?
+
+                                                Yuk ikuti sosialisasi komatik pada :
+
+                                                Hari/Tanggal : Rabu, 27 September 2017
+                                                Waktu : 15.30 – Selesai
+                                                Fee : FREE [Wajib #dulurti2k17]
+                                                Tempat : B10201
+
+                                                Visit : komatik.id
+
+                                                Kita tunggu ya kehadiran kalian!😊
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-4">
                                     <div class="portfolio-item">
                                         <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/IMG_6216.JPG" alt="">
+                                            <img class="img-responsive" src="images/portfolio/full/PPMLN.jpg" alt="">
                                             <h5>
-                                                Halal Bihalal Warga JTIF
+                                                Program Pemuda Magang Luar Negeri ( PPMLN )
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Halal Bihalal Warga JTIF" href="images/portfolio/full/IMG_6216.JPG" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Program Pemuda Magang Luar Negeri ( PPMLN )" href="images/portfolio/full/PPMLN.jpg" rel="prettyPhoto"><li class="icon-eye-open"></li></a>
                                             </div>
+                                            <p>
+                                                Hello Indonesian Youth!??
+                                                Kabar baik untukmu hari ini!
+
+                                                AIESEC Indonesia bekerja sama dengan KEMENPORA di tahun 2017 ini untuk membuat program Pemuda Magang Luar Negeri ( PPMLN ). PPMLN adalah program bagi anak muda Indonesia untuk membangun karir melalui program magang Internasional full-funded.
+
+                                                Dan mulai hari ini, 16 Juni hingga tanggal 30 Juni nanti kami akan membuka online registration untuk setiap anak muda Indonesia yang ingin mengikuti program ini. Ayo daftarkan dirimu untuk menjadi yang pertama mengikuti PPMLN.
+
+                                                Register : aiesec.or.id/registerppmln
+                                                More info: www.aiesec.or.id/program-ppmln
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-4">
                                     <div class="portfolio-item">
                                         <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/IMG_8024.JPG" alt="">
+                                            <img class="img-responsive" src="images/portfolio/full/startup.jpeg" alt="">
                                             <h5>
-                                                Rapat Kerja HIMTI
+                                                Startup Geeks Goes To Campus
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Rapat Kerja HIMTI 2016" href="images/portfolio/full/IMG_8024.JPG" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                            <a class="preview btn btn-danger" title="Startup Geeks Goes To Campus" href="images/portfolio/full/startup.jpeg" rel="prettyPhoto"><li class="icon-eye-open"></li></a>
                                             </div>
-                                        </div>
+                                                <p>
+                                                Yuk ikutan kuliah tamu dengan tema “Open mind the Startup Founder” dari CEO Riliv “Audrey Maxi”
+
+                                                Hari : Selasa, 2 Mei 2017
+                                                Waktu : 13.00 – selesai
+                                                Tempat : Auditorium A1 lt.2 *Perwakilan kelas minimal 5 orang ya guys
+                                                Terima kasih
+                                                </p>
                                     </div>
                                 </div>
                             </div><!--/.row-->
                         </div><!--/.item-->
                         <div class="item">
                             <div class="row">
-                                <div class="col-xs-4">
-                                    <div class="portfolio-item">
-                                        <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                            <h5>
-                                                Sensus
-                                            </h5>
-                                            <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-4">
-                                    <div class="portfolio-item">
-                                        <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                            <h5>
-                                                Training Of Trainers
-                                            </h5>
-                                            <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="colxs-4">
-                                    <div class="portfolio-item">
-                                        <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/IMG_7833.JPG" alt="">
-                                            <h5>
-                                                Musyawarah Mahasiswa II
-                                            </h5>
-                                            <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Musyawarah Mahasiswa II" href="images/portfolio/full/IMG_7833.JPG" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div><!--/.item-->
                     </div>

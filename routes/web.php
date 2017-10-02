@@ -25,3 +25,15 @@ Route::get('/beasiswa', function(){
 
 Route::get('/loker', function(){
     return view('loker');})->name('loker');
+
+Route::get('/mi', function(){
+    return view('mi');})->name('mi');
+
+Route::get('/pti', function(){
+    return view('pti');})->name('pti');
+
+Route::get('/ti', function(){
+    return view('ti');})->name('ti');
+
+Route::get('/si', function(){
+    return view('si');})->name('si');

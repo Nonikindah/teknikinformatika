@@ -475,7 +475,7 @@ body > section {
   border: 1px solid #eee;
   padding: 10px 10px 0;
   margin: 0 20px 20px 0;
-  position: relative;
+  position: 10px 10px;
 }
 .portfolio-item img {
   width: 100%;
@@ -888,7 +888,7 @@ ul.tag-cloud li {
 }
 #bottom .media-heading {
   display: block;
-  font-weight: 400;
+  font-weight: 100;
 }
 .row > div {
   margin-bottom: 10px;
